@@ -1,0 +1,790 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8E351FE9-E2DD-4791-9067-F9CDC7F091B2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>WindowsApplication9.My.MyApplication</StartupObject>
+    <RootNamespace>WindowsApplication9</RootNamespace>
+    <AssemblyName>WindowsApplication9</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>WindowsApplication9.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>WindowsApplication9.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="enfj.Designer.vb">
+      <DependentUpon>enfj.vb</DependentUpon>
+    </Compile>
+    <Compile Include="enfj.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="enfjcar.Designer.vb">
+      <DependentUpon>enfjcar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="enfjcar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="enfjfun.Designer.vb">
+      <DependentUpon>enfjfun.vb</DependentUpon>
+    </Compile>
+    <Compile Include="enfjfun.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="enfjp.Designer.vb">
+      <DependentUpon>enfjp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="enfjp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="enfp.Designer.vb">
+      <DependentUpon>enfp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="enfp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="enfpcar.Designer.vb">
+      <DependentUpon>enfpcar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="enfpcar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="enfpfun.Designer.vb">
+      <DependentUpon>enfpfun.vb</DependentUpon>
+    </Compile>
+    <Compile Include="enfpfun.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="enfpp.Designer.vb">
+      <DependentUpon>enfpp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="enfpp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="entj.Designer.vb">
+      <DependentUpon>entj.vb</DependentUpon>
+    </Compile>
+    <Compile Include="entj.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="entjcar.Designer.vb">
+      <DependentUpon>entjcar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="entjcar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="entjfun.Designer.vb">
+      <DependentUpon>entjfun.vb</DependentUpon>
+    </Compile>
+    <Compile Include="entjfun.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="entjp.Designer.vb">
+      <DependentUpon>entjp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="entjp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="entp.Designer.vb">
+      <DependentUpon>entp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="entp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="entpcar.Designer.vb">
+      <DependentUpon>entpcar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="entpcar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="entpfun.Designer.vb">
+      <DependentUpon>entpfun.vb</DependentUpon>
+    </Compile>
+    <Compile Include="entpfun.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="entpp.Designer.vb">
+      <DependentUpon>entpp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="entpp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="esfj.Designer.vb">
+      <DependentUpon>esfj.vb</DependentUpon>
+    </Compile>
+    <Compile Include="esfj.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="esfjcar.Designer.vb">
+      <DependentUpon>esfjcar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="esfjcar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="esfjfun.Designer.vb">
+      <DependentUpon>esfjfun.vb</DependentUpon>
+    </Compile>
+    <Compile Include="esfjfun.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="esfjp.Designer.vb">
+      <DependentUpon>esfjp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="esfjp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="esfp.Designer.vb">
+      <DependentUpon>esfp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="esfp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="esfpcar.Designer.vb">
+      <DependentUpon>esfpcar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="esfpcar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="esfpfun.Designer.vb">
+      <DependentUpon>esfpfun.vb</DependentUpon>
+    </Compile>
+    <Compile Include="esfpfun.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="esfpp.Designer.vb">
+      <DependentUpon>esfpp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="esfpp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="estj.Designer.vb">
+      <DependentUpon>estj.vb</DependentUpon>
+    </Compile>
+    <Compile Include="estj.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="estjcar.Designer.vb">
+      <DependentUpon>estjcar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="estjcar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="estjfun.Designer.vb">
+      <DependentUpon>estjfun.vb</DependentUpon>
+    </Compile>
+    <Compile Include="estjfun.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="estjp.Designer.vb">
+      <DependentUpon>estjp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="estjp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="estp.Designer.vb">
+      <DependentUpon>estp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="estp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="estpcar.Designer.vb">
+      <DependentUpon>estpcar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="estpcar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="estpfun.Designer.vb">
+      <DependentUpon>estpfun.vb</DependentUpon>
+    </Compile>
+    <Compile Include="estpfun.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="estpp.Designer.vb">
+      <DependentUpon>estpp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="estpp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="index.Designer.vb">
+      <DependentUpon>index.vb</DependentUpon>
+    </Compile>
+    <Compile Include="index.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="infj.Designer.vb">
+      <DependentUpon>infj.vb</DependentUpon>
+    </Compile>
+    <Compile Include="infj.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="infjcar.Designer.vb">
+      <DependentUpon>infjcar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="infjcar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="infjfun.Designer.vb">
+      <DependentUpon>infjfun.vb</DependentUpon>
+    </Compile>
+    <Compile Include="infjfun.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="infjp.Designer.vb">
+      <DependentUpon>infjp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="infjp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="infp.Designer.vb">
+      <DependentUpon>infp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="infp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="infpcar.Designer.vb">
+      <DependentUpon>infpcar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="infpcar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="infpfun.Designer.vb">
+      <DependentUpon>infpfun.vb</DependentUpon>
+    </Compile>
+    <Compile Include="infpfun.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="infpp.Designer.vb">
+      <DependentUpon>infpp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="infpp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="intj.Designer.vb">
+      <DependentUpon>intj.vb</DependentUpon>
+    </Compile>
+    <Compile Include="intj.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="intjcar.Designer.vb">
+      <DependentUpon>intjcar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="intjcar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="intjfun.Designer.vb">
+      <DependentUpon>intjfun.vb</DependentUpon>
+    </Compile>
+    <Compile Include="intjfun.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="intjp.Designer.vb">
+      <DependentUpon>intjp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="intjp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="intp.Designer.vb">
+      <DependentUpon>intp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="intp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="intpcar.Designer.vb">
+      <DependentUpon>intpcar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="intpcar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="intpfun.Designer.vb">
+      <DependentUpon>intpfun.vb</DependentUpon>
+    </Compile>
+    <Compile Include="intpfun.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="intpp.Designer.vb">
+      <DependentUpon>intpp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="intpp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="isfj.Designer.vb">
+      <DependentUpon>isfj.vb</DependentUpon>
+    </Compile>
+    <Compile Include="isfj.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="isfjcar.Designer.vb">
+      <DependentUpon>isfjcar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="isfjcar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="isfjfun.Designer.vb">
+      <DependentUpon>isfjfun.vb</DependentUpon>
+    </Compile>
+    <Compile Include="isfjfun.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="isfjp.Designer.vb">
+      <DependentUpon>isfjp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="isfjp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="isfp.Designer.vb">
+      <DependentUpon>isfp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="isfp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="isfpcar.Designer.vb">
+      <DependentUpon>isfpcar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="isfpcar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="isfpfun.Designer.vb">
+      <DependentUpon>isfpfun.vb</DependentUpon>
+    </Compile>
+    <Compile Include="isfpfun.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="isfpp.Designer.vb">
+      <DependentUpon>isfpp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="isfpp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="istj.Designer.vb">
+      <DependentUpon>istj.vb</DependentUpon>
+    </Compile>
+    <Compile Include="istj.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="istjcar.Designer.vb">
+      <DependentUpon>istjcar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="istjcar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="istjfun.Designer.vb">
+      <DependentUpon>istjfun.vb</DependentUpon>
+    </Compile>
+    <Compile Include="istjfun.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="istjp.Designer.vb">
+      <DependentUpon>istjp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="istjp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="istp.Designer.vb">
+      <DependentUpon>istp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="istp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="istpcar.Designer.vb">
+      <DependentUpon>istpcar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="istpcar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="istpfun.Designer.vb">
+      <DependentUpon>istpfun.vb</DependentUpon>
+    </Compile>
+    <Compile Include="istpfun.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="istpp.Designer.vb">
+      <DependentUpon>istpp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="istpp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="q1.Designer.vb">
+      <DependentUpon>q1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="q1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="q2.Designer.vb">
+      <DependentUpon>q2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="q2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="q3.Designer.vb">
+      <DependentUpon>q3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="q3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="q4.Designer.vb">
+      <DependentUpon>q4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="q4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="type.Designer.vb">
+      <DependentUpon>type.vb</DependentUpon>
+    </Compile>
+    <Compile Include="type.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="enfj.resx">
+      <DependentUpon>enfj.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="enfjcar.resx">
+      <DependentUpon>enfjcar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="enfjfun.resx">
+      <DependentUpon>enfjfun.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="enfjp.resx">
+      <DependentUpon>enfjp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="enfp.resx">
+      <DependentUpon>enfp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="enfpcar.resx">
+      <DependentUpon>enfpcar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="enfpfun.resx">
+      <DependentUpon>enfpfun.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="enfpp.resx">
+      <DependentUpon>enfpp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="entj.resx">
+      <DependentUpon>entj.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="entjcar.resx">
+      <DependentUpon>entjcar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="entjfun.resx">
+      <DependentUpon>entjfun.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="entjp.resx">
+      <DependentUpon>entjp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="entp.resx">
+      <DependentUpon>entp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="entpcar.resx">
+      <DependentUpon>entpcar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="entpfun.resx">
+      <DependentUpon>entpfun.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="entpp.resx">
+      <DependentUpon>entpp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="esfj.resx">
+      <DependentUpon>esfj.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="esfjcar.resx">
+      <DependentUpon>esfjcar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="esfjfun.resx">
+      <DependentUpon>esfjfun.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="esfjp.resx">
+      <DependentUpon>esfjp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="esfp.resx">
+      <DependentUpon>esfp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="esfpcar.resx">
+      <DependentUpon>esfpcar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="esfpfun.resx">
+      <DependentUpon>esfpfun.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="esfpp.resx">
+      <DependentUpon>esfpp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="estj.resx">
+      <DependentUpon>estj.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="estjcar.resx">
+      <DependentUpon>estjcar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="estjfun.resx">
+      <DependentUpon>estjfun.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="estjp.resx">
+      <DependentUpon>estjp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="estp.resx">
+      <DependentUpon>estp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="estpcar.resx">
+      <DependentUpon>estpcar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="estpfun.resx">
+      <DependentUpon>estpfun.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="estpp.resx">
+      <DependentUpon>estpp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="index.resx">
+      <DependentUpon>index.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="infj.resx">
+      <DependentUpon>infj.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="infjcar.resx">
+      <DependentUpon>infjcar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="infjfun.resx">
+      <DependentUpon>infjfun.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="infjp.resx">
+      <DependentUpon>infjp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="infp.resx">
+      <DependentUpon>infp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="infpcar.resx">
+      <DependentUpon>infpcar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="infpfun.resx">
+      <DependentUpon>infpfun.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="infpp.resx">
+      <DependentUpon>infpp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="intj.resx">
+      <DependentUpon>intj.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="intjcar.resx">
+      <DependentUpon>intjcar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="intjfun.resx">
+      <DependentUpon>intjfun.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="intjp.resx">
+      <DependentUpon>intjp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="intp.resx">
+      <DependentUpon>intp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="intpcar.resx">
+      <DependentUpon>intpcar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="intpfun.resx">
+      <DependentUpon>intpfun.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="intpp.resx">
+      <DependentUpon>intpp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="isfj.resx">
+      <DependentUpon>isfj.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="isfjcar.resx">
+      <DependentUpon>isfjcar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="isfjfun.resx">
+      <DependentUpon>isfjfun.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="isfjp.resx">
+      <DependentUpon>isfjp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="isfp.resx">
+      <DependentUpon>isfp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="isfpcar.resx">
+      <DependentUpon>isfpcar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="isfpfun.resx">
+      <DependentUpon>isfpfun.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="isfpp.resx">
+      <DependentUpon>isfpp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="istj.resx">
+      <DependentUpon>istj.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="istjcar.resx">
+      <DependentUpon>istjcar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="istjfun.resx">
+      <DependentUpon>istjfun.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="istjp.resx">
+      <DependentUpon>istjp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="istp.resx">
+      <DependentUpon>istp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="istpcar.resx">
+      <DependentUpon>istpcar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="istpfun.resx">
+      <DependentUpon>istpfun.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="istpp.resx">
+      <DependentUpon>istpp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="q1.resx">
+      <DependentUpon>q1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="q2.resx">
+      <DependentUpon>q2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="q3.resx">
+      <DependentUpon>q3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="q4.resx">
+      <DependentUpon>q4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="type.resx">
+      <DependentUpon>type.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %282%29.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
